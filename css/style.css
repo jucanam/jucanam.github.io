@@ -1,0 +1,186 @@
+/*font-family: 'Baloo Bhai', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Bitter', serif;*/
+
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	/*background: orange;*/
+	
+}
+
+/*etiquetas*/
+body {
+	background-image: url(../images/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1{
+	color: white;
+	font-family: 'Boogaloo', cursive;
+	margin-left: 10px;
+	font-size: 100px;
+	text-align: center;
+}
+
+h2{
+	color: orange;
+	font-family: 'Ubuntu', sans-serif;
+	margin-left: 20px;
+	font-size: 20px;
+	text-align: left;
+}
+
+h3{
+	color: black;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 10px;
+	text-align: center;
+}
+
+p{
+	font-size: 15px;
+	/*font-weight: bold;*/
+	line-height: 20px;
+	padding: 10px;
+	text-align: justify;
+}
+
+header{
+	font-color: white;
+	width: 1000px;
+	height: 120px;
+	background: rgba(255, 255, 255, 3,5);
+
+}
+
+nav{
+	width: 1000px;
+	height: 50px;
+	background: orange;
+	border-radius: 10px;
+	
+}
+
+ul{
+	margin: auto;
+	padding-top: 4px;
+}
+
+
+
+li{
+	float: left;
+	list-style-type: none; /*toma los elementos como un menu*/
+	padding: 10px;
+	background: orange;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px black inset;
+}
+
+section{
+	width: 700px;
+	background: white;
+	height: 600px;
+	float: left;
+	margin-top: 10px;
+	border-radius: 10px;
+
+}
+
+aside{
+	width: 290px;
+	background: gray;
+	height: 600px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+footer{
+	width: 1000px;
+	background: orange;
+	height: 80px;
+	float: left;
+	margin-top: 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+
+/*slider*/
+}
+
+#cslider{
+	margin: auto;
+	width: 85%;
+	max-width: 500px;
+	max-height: 200px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 0 0 10px #fff, 0 15px;
+}
+
+#slider {
+	display: flex;
+	width: 400%;
+}
+
+#slider section{
+	width: 100%;
+}
+
+#slider img{
+	display: block;
+	width: 100%;
+	height: 100%;
+
+}
+
+#btn-prev, #btn-next{
+	width: 40px;
+	height: 40px;
+	background: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	top: 50%;
+	transform: tanslateY(-50%);
+	line-height: 40px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 50%;
+	font-family: monospace;
+	cursor: pointer;
+}
+
+#btn-prev:hover, #btn-next:hover {
+	background: rgba(255, 255, 255, 1);
+
+}
+#btn-prev{
+	left: 10px;
+}
+
+#btn-next{
+	right: 10px;
+}
+	
+
+
+/*CLASES*/
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color: white; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 8px white;}
+.menu:active{color: white; text-decoration: none;}
+
+/*SEUDO CLASES*/
+li:hover{
+	background: black;
+	box-shadow: 0 0 10px black inset;
+}
