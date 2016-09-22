@@ -85,17 +85,17 @@ li{
 section{
 	width: 700px;
 	background: white;
-	height: 650px;
+	height: 750px;
 	float: left;
 	margin-top: 5px;
 	border-radius: 10px;
-
 }
+
 
 aside{
 	width: 295px;
 	background: gray;
-	height: 650px;
+	height: 750px;
 	float: left;
 	margin-left: 5px;
 	margin-top: 5px;
