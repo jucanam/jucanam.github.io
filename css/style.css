@@ -15,7 +15,7 @@ font-family: 'Bitter', serif;*/
 body {
 	background-image: url(../images/fondo.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	/*background-size: cover;*/
 }
 
 h1{
@@ -85,7 +85,7 @@ li{
 section{
 	width: 700px;
 	background: white;
-	height: 600px;
+	height: 650px;
 	float: left;
 	margin-top: 5px;
 	border-radius: 10px;
@@ -93,9 +93,9 @@ section{
 }
 
 aside{
-	width: 290px;
+	width: 295px;
 	background: gray;
-	height: 600px;
+	height: 650px;
 	float: left;
 	margin-left: 5px;
 	margin-top: 5px;
@@ -184,3 +184,4 @@ li:hover{
 	background: black;
 	box-shadow: 0 0 10px black inset;
 }
+
